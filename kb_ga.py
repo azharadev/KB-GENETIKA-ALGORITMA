@@ -1,54 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[86]:
-
-
 import numpy as np
 import math 
 import random
+
+#Azhara Devi Sandi
+#A11.2018.11392
 
 class Algoritma_genetika :
 # membuat algoritma genetika
 # misalkan ada persamaan a+2b+3c+4d = 30
 # maka buat algoritma genetika untuk mencari nilai a,b,c, dan d
-
-# jumlah_chorm = 6
-# gen = ["a","b","c","d"]
-# # nilai_gen={
-# #     nilai_gen_1={#a
-# # #     "a"='min_1' : 0, "a"='max_1' : 30,
-# # #     "b"="c"="d"='min_2' : 0, "b"="c"="d"='max_2' : 10
-# #     'min':0,
-# #     'max':30
-# #     }
-# #     nilai_gen_2={#bcd
-# #         'min':0,
-# #         'max':10
-# #     }
-# # } #nilai per gen a<=30 b=c=d<=10
-
-# 	nilai_per_gen = {
-# 		'min' : 0,
-# 		'max' : 30
-# 	} #nilai per gen 0-30\
-
-# crossover_rate=50/100
-# mutasi_rate=10/100
-# total_gen=24
-# # total_gen     = (jumlah gen dalam chromosome) * jumlah populasi
-# # = 4 * 6
-# # = 24
-# next_gen=np.arange(4)
-# stop=False
-
-# #inisialisasi chromosome random
-# 	def __init__(self):
-# 		#pembentukan chromosome random
-# 		self.first_chrom = np.random.randint(low=self.nilai_per_gen['min'], high=self.nilai_per_gen['max'], size=(self.jum_chrom, len(self.gen)))
-# 		print(self.first_chrom)
-# 		print("====================================================================================")
-# 		print("====================================================================================")
 
 	jum_chrom = 6 #jumlah chromosome
 	gen = ["a", "b", "c", "d"] #nilai gen abcd
@@ -211,17 +171,3 @@ class Algoritma_genetika :
 
 run = Algoritma_genetika()
 run.do_now()
-      
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
